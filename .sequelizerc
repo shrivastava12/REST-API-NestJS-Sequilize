@@ -1,0 +1,8 @@
+const path =  require('path')
+
+module.exports = {
+    'config':path.resolve('config','sequilize.js'),
+    'seeders-path': resolve('seeders'),
+    'migrations-path': resolve('migrations'),
+    'models-path': resolve('src/models')
+}
